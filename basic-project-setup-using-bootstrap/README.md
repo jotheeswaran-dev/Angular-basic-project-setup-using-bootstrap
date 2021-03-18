@@ -1,3 +1,9 @@
+👋 Hi, I’m Jotheeswaran (@jotheeswaran-dev) working as Senior Software Developer in Aspire Systems, Chennai. 
+👀 I’m interested in .Net Core, Angular, Azure, C#
+🌱 I’m currently learning Angular
+💞️ I’m looking to collaborate on Open Source projects
+📫 How to reach me in Twitter - @jotheeswaran03
+
 # BasicProjectSetupUsingBootstrap
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
