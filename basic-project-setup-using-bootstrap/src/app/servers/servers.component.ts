@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class ServersComponent implements OnInit {
     // property to be binded in html
     disableAddServer = false;
-
+    createServerEvent = 'No Server was created';
     constructor() {
         setTimeout(() => {
             this.disableAddServer = true;
@@ -19,4 +19,7 @@ export class ServersComponent implements OnInit {
   ngOnInit(): void {
   }
 
+    onCreateServer() {
+        this.createServerEvent = 'Server was created successfully';
+    }
 }
