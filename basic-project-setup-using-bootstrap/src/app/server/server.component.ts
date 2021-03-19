@@ -9,5 +9,11 @@ import { Component } from '@angular/core';
 
 // class defined - typescript 
 export class ServerComponent {
+    serverID = 10;
+    serverStatus = 'offline';
 
+    // method defined in type script to return the status
+    getServerStatus() {
+        return this.serverStatus;
+    }
 }
