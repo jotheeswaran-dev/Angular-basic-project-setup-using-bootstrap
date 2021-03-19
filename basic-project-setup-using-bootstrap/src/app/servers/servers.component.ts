@@ -7,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./servers.component.css']
 })
 export class ServersComponent implements OnInit {
+    // property to be binded in html
+    disableAddServer = false;
 
-  constructor() { }
+    constructor() {
+        setTimeout(() => {
+            this.disableAddServer = true;
+        }, 2000);
+    }
 
   ngOnInit(): void {
   }
