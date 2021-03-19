@@ -24,7 +24,7 @@ export class ServersComponent implements OnInit {
         this.createServerEvent = 'Server was created successfully';
     }
 
-    onUpdateServername(event : Event) {
-        this.serverName = (<HTMLInputElement>event.target).value;
-    }
+    //onUpdateServername(event : Event) {
+    //    this.serverName = (<HTMLInputElement>event.target).value;
+    //}
 }

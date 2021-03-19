@@ -1,8 +1,14 @@
 <label>Enter server name</label>
-<input
+<!--<input
        type="text"
        class="form-control"
-       (input) ="onUpdateServername($event)" />
+       (input) ="onUpdateServername($event)" />-->
+
+<!--two-way binding using formsmodule-->
+<input type="text"
+       class="form-control"
+       [(ngModel)]="serverName" />
+
 <p>{{serverName}}</p>
 
 <button
