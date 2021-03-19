@@ -1,4 +1,10 @@
-<!--property binding to html elements-->
+<label>Enter server name</label>
+<input
+       type="text"
+       class="form-control"
+       (input) ="onUpdateServername($event)" />
+<p>{{serverName}}</p>
+
 <button
         class="btn btn-primary"
         [disabled] ="!disableAddServer"

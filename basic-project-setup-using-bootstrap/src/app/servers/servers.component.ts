@@ -10,16 +10,21 @@ export class ServersComponent implements OnInit {
     // property to be binded in html
     disableAddServer = false;
     createServerEvent = 'No Server was created';
+    serverName = '';
     constructor() {
         setTimeout(() => {
             this.disableAddServer = true;
         }, 2000);
     }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+    }
 
     onCreateServer() {
         this.createServerEvent = 'Server was created successfully';
+    }
+
+    onUpdateServername(event : Event) {
+        this.serverName = (<HTMLInputElement>event.target).value;
     }
 }
